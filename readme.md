@@ -6,7 +6,7 @@ This is an update from the homework 7.
 
 ## 🚀 Live Demo
 
-https://in-info-web4.luddy.indianapolis.iu.edu/~kimhnguy/jungle-cook/
+https://in-info-web4.luddy.indianapolis.iu.edu/~kimhnguy/final-jungle-cook/
 
 ## ✨ Features
 
