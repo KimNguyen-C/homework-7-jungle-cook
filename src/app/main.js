@@ -90,7 +90,7 @@ onAuthStateChanged(auth, (user) => {
   }
 });
 
-document.getElementById("login-btn").onclick = (e) => {
+$(document).on("click", "#login-btn", function(e) {
   e.preventDefault(); // Prevent form submission
   let emailInput = document.querySelector(".login .email");
   let passwordInput = document.querySelector(".login .password");
@@ -122,9 +122,9 @@ document.getElementById("login-btn").onclick = (e) => {
     .catch((error) => {
       console.error("Error logging in:", error.code, error.message);
     });
-};
+});
 
-document.getElementById("signup-btn").onclick = (e) => {
+$(document).on("click", "#signup-btn", function(e) {
   e.preventDefault(); // Prevent form submission
   let emailInput = document.querySelector(".signup .email");
   let passwordInput = document.querySelector(".signup .password");
@@ -170,4 +170,4 @@ document.getElementById("signup-btn").onclick = (e) => {
     .catch((error) => {
       console.error("Error signing up:", error.code, error.message);
     });
-};
+});

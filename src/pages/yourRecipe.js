@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./images/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework-7-jungle-cook</title>
-  </head>
-  <body>
-    <div id="app">
-      <div class="yourRecipe">
+export default `<div class="yourRecipe">
         <header>
           <div id="brand">
             <svg
@@ -42,7 +32,8 @@
                   >Create Recipe</a
                 >
               </li>
-              <li><a href="#login" data-page="login" id="login">Login</a></li>
+              <li><a href="#yourRecipe" data-page="yourRecipe" id="yourRecipe">Your Recipe</a></li>
+              <li><a href="#login" data-page="login" id="login" >Log Out</a></li>
             </ul>
           </nav>
           <div id="hamburger-icon">
@@ -84,7 +75,8 @@
                 </div>
               </div>
             </div>
-            <div class="2-buttons">
+            
+            <div class="two-buttons">
               <button class="edit">Edit Recipe</button>
               <button class="delete">Delete Recipe</button>
             </div>
@@ -134,9 +126,4 @@
             </svg>
           </div>
         </footer>
-      </div>
-    </div>
-    <script type="module" src="src/app/main.js"></script>
-    <script type="module" src="src/app/app.js"></script>
-  </body>
-</html>
+      </div>`;
